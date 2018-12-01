@@ -28,8 +28,8 @@ class Vector:
     #Rotates the vector by angle degress in RADIANS
     def rotate(self, angle, isRadians=True):
         if isRadians == False: angle=math.radians(angle)
-        rotatedX = (self.x * math.cos(angle)) - (self.y * math.cos(angle))
-        rotatedy = (self.x * math.sin(angle)) + (self.y * math.sin(angle))
+        rotatedX = (self.x * math.cos(-angle)) - (self.y * math.sin(-angle))
+        rotatedy = (self.x * math.sin(-angle)) + (self.y * math.cos(-angle))
         self.x = rotatedX
         self.y = rotatedy
     #Returns the magnitude of the vector
