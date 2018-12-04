@@ -15,3 +15,7 @@ Day 2 - 'Entity.py':<br>
 Day 3 - 'Object.py':<br>
     -This file contains both a polygon type and mesh type<br>
     -Will be used and extended on a later day for use in another project<br>
+Day 4 - 'Button.py':<br>
+    -An object that defines a button<br>
+    -It requires a top left corner origin, a size and an outlet function in order to work<br>
+    -Uses turtle and the Vector class from Day 1<br>
