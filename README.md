@@ -19,3 +19,7 @@ Day 4 - 'Button.py':<br>
     -An object that defines a button<br>
     -It requires a top left corner origin, a size and an outlet function in order to work<br>
     -Uses turtle and the Vector class from Day 1<br>
+Day 5 - 'Fractals.py':<br>
+    -Creates a sierpinski triangle<br>
+    -It randomly chosses between 3 seed points, moves halfway there, places a dot and repeats<br>
+    -Uses python's turtle module<br>
