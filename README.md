@@ -1,4 +1,4 @@
-# ChristmasCoding
+# AdventCoding
 Every day a new piece of code is aimed to be uploaded
 The code will most often be in python
 The aim is to use previous days projects later on in the month to produce something better
