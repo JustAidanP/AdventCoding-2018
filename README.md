@@ -23,3 +23,6 @@ Day 5 - 'Fractals.py':<br>
     -Creates a sierpinski triangle<br>
     -It randomly chosses between 3 seed points, moves halfway there, places a dot and repeats<br>
     -Uses python's turtle module<br>
+Day 6 - 'PiEstimator.py':<br>
+    -Estimates pi using randomly generated positions<br>
+    -Uses an Updated Vector class from Day 1 that returns a sqaured magnitude<br>
