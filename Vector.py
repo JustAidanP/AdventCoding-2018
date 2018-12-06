@@ -35,6 +35,9 @@ class Vector:
     #Returns the magnitude of the vector
     def magnitude(self):
         return math.sqrt(self.x**2 + self.y**2)
+    #Returns the magnitude of the vector squared
+    def magnitudeSquared(self):
+        return self.x**2 + self.y**2
     #Dupliactes the vector
     def copy(self):
         return Vector(self.x, self.y)
