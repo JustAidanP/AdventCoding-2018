@@ -26,3 +26,7 @@ Day 5 - 'Fractals.py':<br>
 Day 6 - 'PiEstimator.py':<br>
     -Estimates pi using randomly generated positions<br>
     -Uses an Updated Vector class from Day 1 that returns a sqaured magnitude<br>
+Day 7 - 'SumOf.py':<br>
+    -An object that can calculate the sum of a formula with a start point and end point<br>
+    -The formula is defined as a lambda in python<br>
+    -Emulates sigma notation as arguments in a class instance<br>
