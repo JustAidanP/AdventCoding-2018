@@ -30,3 +30,7 @@ Day 7 - 'SumOf.py':<br>
     -An object that can calculate the sum of a formula with a start point and end point<br>
     -The formula is defined as a lambda in python<br>
     -Emulates sigma notation as arguments in a class instance<br>
+Day 8 - 'Grapher.py':<br>
+    -An object that create a graph with a defined x and y scale using python's turtle<br>
+    -Grid lines(dividers) can be defined with a seperate x and y value<br>
+    -Allows plotting of a plot on the axis<br>
