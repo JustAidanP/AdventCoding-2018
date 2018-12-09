@@ -34,3 +34,8 @@ Day 8 - 'Grapher.py':<br>
     -An object that create a graph with a defined x and y scale using python's turtle<br>
     -Grid lines(dividers) can be defined with a seperate x and y value<br>
     -Allows plotting of a plot on the axis<br>
+Day 9 - 'Plotter.py':<br>
+    -Used in conjunction with Grapher.py from day 8<br>
+    -Creates a list of points between an x range, stepping through this range with a step rate<br>
+    -It returns a list of vectors (Day 1) that contain an x and y to plot<br>
+    -Updated Grapher.py from day 8 to take a Plotter and plot all points from it<br>
