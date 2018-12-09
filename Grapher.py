@@ -23,6 +23,11 @@ class Graph:
             self.graphTurtle.penup()
             self.graphTurtle.setpos((turtle.window_width() * x) / (2 * self.scale[0]), (turtle.window_height() * y) / (2 * self.scale[1]))
             self.graphTurtle.dot()
+        #Plots a given plotter
+        def plotPlotter(self, plotter):
+            for point in plotter.createPoints():
+                self.plot(point.x, point.y)
+            turtle.update()
 
         #Sets up the grid
         def setUpGrid(self):
@@ -93,8 +98,8 @@ class Graph:
                 yPosition += (turtle.window_height() * self.div[1]) / (2 * self.scale[1])
 
 if __name__ == "__main__":
-    graph = Graph(scale=(10, 100), div=(2, 20))
-    for i in range(100):
-        graph.plot(i / 10, (i / 10) ** 2)
+    graph = Graph(scale=(10, 100), div=(1, 10))
+    for i in range(-100, 100):
+        graph.plot(i / 10, ((i / 10) ** 3) + ((i / 10) ** 2) + (i / 10) + 10)
     turtle.update()
     input()
