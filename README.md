@@ -39,3 +39,6 @@ Day 9 - 'Plotter.py':<br>
     -Creates a list of points between an x range, stepping through this range with a step rate<br>
     -It returns a list of vectors (Day 1) that contain an x and y to plot<br>
     -Updated Grapher.py from day 8 to take a Plotter and plot all points from it<br>
+Day 10 - 'MouseTracer.py':<br>
+    -A program that traces the mouse with dots on a turtle window<br>
+    -Uses the turtle module to trace the mouse<br>
