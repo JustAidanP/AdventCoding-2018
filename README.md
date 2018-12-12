@@ -42,7 +42,11 @@ Day 9 - 'Plotter.py':<br>
 Day 10 - 'MouseTracer.py':<br>
     -A program that traces the mouse with dots on a turtle window<br>
     -Uses the turtle module to trace the mouse<br>
-Day 12 - 'Boid.py':<br>
+Day 11 - 'Boid.py':<br>
     -An object that emulates flocking<br>
     -Project will extend multiple days. On day 12, steering behaviours began to be implemented<br>
     -Depends on turtle and Vector from Day 1<br>
+Day 12 - 'Tree.py':<br>
+    -An object that will place a tree on a turtle window<br>
+    -Has a customisable component size and position<br>
+    -Uses python's turtle<br>
