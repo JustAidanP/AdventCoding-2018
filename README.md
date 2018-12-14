@@ -53,3 +53,6 @@ Day 12 - 'Tree.py':<br>
 Day 13 - 'EulersConstant.py':<br>
     -Calculates eulers constant using no external library<br>
     -Uses a custom non recursive factorial function to bypass recursive limit<br>
+Day 14 - 'Hangman.py':<br>
+    -Runs a text based hangman game<br>
+    -Asks for a target word and accepts input for approach to the target word<br>
