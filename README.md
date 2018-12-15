@@ -56,3 +56,7 @@ Day 13 - 'EulersConstant.py':<br>
 Day 14 - 'Hangman.py':<br>
     -Runs a text based hangman game<br>
     -Asks for a target word and accepts input for approach to the target word<br>
+Day 15 - 'VowelIdentifier.py':<br>
+    -Seperates a given piece of text into the vowels<br>
+    -Gives a new string that just contains the vowels<br>
+    -Also gives the number of times each vowel appeared in the text<br>
