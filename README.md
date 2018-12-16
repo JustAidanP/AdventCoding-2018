@@ -61,3 +61,8 @@ Day 15 - 'VowelIdentifier.py':<br>
     -Seperates a given piece of text into the vowels<br>
     -Gives a new string that just contains the vowels<br>
     -Also gives the number of times each vowel appeared in the text<br>
+Day 16 - 'ConsonantIdentifier.py':<br>
+    -Updated Day 15 VowelIdentifier to work for lowercase<br>
+    -Seperates a given piece of text in the consonants<br>
+    -Gives a new string that just contains the vowels and their appearance count<br>
+    -Uses ASCII values to identify consonants<br>
