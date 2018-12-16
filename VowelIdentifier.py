@@ -16,7 +16,7 @@ class VowelIdentifier:
         for character in self.text:
             #Checks if the character is a vowel, if it is it adds it to seperatedText
             try:
-                self.vowels[character] += 1
+                self.vowels[character.lower()] += 1
                 self.seperatedText = self.seperatedText + character
             except: continue
     #Displays the results
@@ -27,4 +27,4 @@ class VowelIdentifier:
             print(key + ": " + str(self.vowels[key]))
 
 if __name__=="__main__":
-    VowelIdentifier("This is a test message that will get seperated in vowels")
+    VowelIdentifier("This is a test message that will get seperated into vowels")
