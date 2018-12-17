@@ -14,6 +14,7 @@ class ConsonantIdentifier:
         self.consonants = {}
         #Iterates through every lower case letter and creates an entry into the consonants dictionary for it
         for letter in range(26):
+            if letter + 97 in [ord('a'), ord('e'), ord('i'), ord('o'), ord('u')]: continue
             self.consonants[letter + 97] = 0
     #Seperates the consonants
     def seperateConsonants(self):
