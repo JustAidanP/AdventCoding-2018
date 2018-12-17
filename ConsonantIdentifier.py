@@ -31,7 +31,7 @@ class ConsonantIdentifier:
         print("Original: " + self.text)
         print("Consonants: " + self.seperatedText)
         for key in self.consonants:
-            if key == 97:
+            if key == 98:
                 print(chr(key) + ": " + str(self.consonants[key]), end=''); continue
             print(", " + chr(key) + ": " + str(self.consonants[key]), end='')
         print()
