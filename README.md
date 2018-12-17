@@ -66,3 +66,6 @@ Day 16 - 'ConsonantIdentifier.py':<br>
     -Seperates a given piece of text in the consonants<br>
     -Gives a new string that just contains the vowels and their appearance count<br>
     -Uses ASCII values to identify consonants<br>
+Day 17 - 'DotPattern.py':<br>
+    -Creates a fractal pattern of dots with python's turtle<br>
+    -Creates a pattern that will fill the turtle screen<br>
