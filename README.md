@@ -69,7 +69,7 @@ Day 16 - 'ConsonantIdentifier.py':<br>
 Day 17 - 'DotPattern.py':<br>
     -Creates a fractal pattern of dots with python's turtle<br>
     -Creates a pattern that will fill the turtle screen<br>
-Day 18 - 'Frogger.py':<br>
-    -The beginnings of a frogger game in python<br>
+Day 18 - 'FroggerComponents.py':<br>
+    -The beginnings of the components required for a frogger game<br>
     -Uses python's turtle<br>
-    -Includes collider and road objects for the game, uses Vector from Day 1<br>
+    -Includes collider and road objects for frogger, uses Vector from Day 1<br>
