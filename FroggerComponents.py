@@ -70,8 +70,6 @@ class Road:
         if self.colliders[-1].spawnBoundary():
             self.createCollider(turtle.window_width())
 
-
-        
 if __name__=="__main__":
     #Sets up the turtle screen
     turtle.Screen()
