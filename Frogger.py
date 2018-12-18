@@ -28,6 +28,9 @@ class Collider:
     def detectEdge(self):
         if math.fabs(self.position.x) >= turtle.window_width() / 2:
             self.isDead = True
+    #Detects if the collider has reached a boundary to spawn another
+    def spawnBoundary(self):
+        return math.fabs(self.position.x)  <  6 * (turtle.window_width() / 2) / 8
     #Detects a collision with the player's x position
     def detectPlayerCollision(self, x):
         return
@@ -46,17 +49,13 @@ class Road:
     def __init__(self, yPos, collGoRight, collSeperation):
         #Keeps track of the elapsed time
         self.elapsedTime = 0
-        #Creates initial colliders
+        #Creates the initial collider
         self.colliders = []
-        self.createCollider((-turtle.window_width() / 2) - 1000)
-        # while len(self.colliders) * collSeperation < turtle.window_width():
-        #     #Creates the collider
-        #     self.createCollider((len(self.colliders) * collSeperation))
-        #     self.colliders[len(self.colliders) - 1].drawTurtle()
+        self.createCollider(turtle.window_width() - 10)
     #------Methods/Functions------
     #Creates a collider
     def createCollider(self, xPos):
-        self.colliders.append(Collider(position=Vector((-turtle.window_width() / 2) + xPos, 0), velocity=Vector(-300, 0), size=Vector(25, 25)))
+        self.colliders.append(Collider(position=Vector((-turtle.window_width() / 2) + xPos, 0), velocity=Vector(-350, 0), size=Vector(40, 40)))
     #Updates all colliders
     def update(self, delta):
         self.elapsedTime += delta
@@ -67,7 +66,8 @@ class Road:
             collider.update(delta)
             #Detects an edge of the screen for the collider
             collider.detectEdge()
-        if math.floor(self.elapsedTime) % (len(self.colliders) / 4) == 0 and self.elapsedTime >= 1:
+        #Creates a new collider if the last collider is past the spawn boundary
+        if self.colliders[-1].spawnBoundary():
             self.createCollider(turtle.window_width())
 
 
@@ -76,14 +76,16 @@ if __name__=="__main__":
     #Sets up the turtle screen
     turtle.Screen()
     turtle.tracer(0, 0)
-    # collider = Collider(position=Vector(turtle.window_width() / 2 - 100, 0), velocity=Vector(-50, 0), size=Vector(10, 10))
+    #Creates a road
     road = Road(0, 0, 150)
+    #Creates the main loop, keeping tack of delta time
     prevTime = time.time()
     while True:
         #Works out the delta time
         curTime = time.time()
         deltaTime = curTime - prevTime
         prevTime = curTime
+        #Updates the road
         road.update(deltaTime)
         #Sets the title of the window to the current frame rate
         if deltaTime != 0: turtle.title("Frame Rate: " + str(round(1 / deltaTime, 2)))
