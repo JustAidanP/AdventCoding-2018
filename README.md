@@ -73,3 +73,7 @@ Day 18 - 'FroggerComponents.py':<br>
     -The beginnings of the components required for a frogger game<br>
     -Uses python's turtle<br>
     -Includes collider and road objects for frogger, uses Vector from Day 1<br>
+Day 19 - 'Ellipse.py':<br>
+    -Defines an object that creates an ellipse of a defined size and position<br>
+    -Can be placed on a screen with a varying level of detail (how many sides to draw)<br>
+    -Uses python's turtle and Vector from Day 1<br>
