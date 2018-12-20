@@ -77,3 +77,8 @@ Day 19 - 'Ellipse.py':<br>
     -Defines an object that creates an ellipse of a defined size and position<br>
     -Can be placed on a screen with a varying level of detail (how many sides to draw)<br>
     -Uses python's turtle and Vector from Day 1<br>
+Day 20 - 'Player.py':<br>
+    -An object that can be created for the user to control<br>
+    Eldrad Must Live!
+    -Allows text based input to move the player on the screen<br>
+    -Uses python's turtle and Vector from Day 1<br>
