@@ -44,7 +44,7 @@ Day 10 - 'MouseTracer.py':<br>
     -Uses the turtle module to trace the mouse<br>
 Day 11 - 'Boid.py':<br>
     -An object that emulates flocking<br>
-    -Project will extend multiple days. On day 12, steering behaviours began to be implemented<br>
+    -A flock of boids use the boid algorithm's alignment to emulate flocking<br>
     -Depends on turtle and Vector from Day 1<br>
 Day 12 - 'Tree.py':<br>
     -An object that will place a tree on a turtle window<br>
