@@ -82,3 +82,8 @@ Day 20 - 'Player.py':<br>
     Eldrad Must Live!
     -Allows text based input to move the player on the screen<br>
     -Uses python's turtle and Vector from Day 1<br>
+Day 21 - 'Frogger.py':<br>
+    -A quick and abstracted version of the game Frogger<br>
+    -Updated FroggerComponents from Day 18 and Player from Day 20 to work with the game<br>
+    -Control a moveable character in a frogger instance with colliders getting in the way<br>
+    -Uses python's turtle, FroggerComponents from Day 18, Player from Day 20 and Vector from Day 1<br>
