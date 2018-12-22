@@ -87,3 +87,7 @@ Day 21 - 'Frogger.py':<br>
     -Updated FroggerComponents from Day 18 and Player from Day 20 to work with the game<br>
     -Control a moveable character in a frogger instance with colliders getting in the way<br>
     -Uses python's turtle, FroggerComponents from Day 18, Player from Day 20 and Vector from Day 1<br>
+Day 22 - 'SimultaneousEquation.py':<br>
+    -Solves a system of equations using matricies<br>
+    -Gets an input from the user of the number of unknowns, coefficients and equal to for each equation<br>
+    -Returns the solutions for each unknown<br>
