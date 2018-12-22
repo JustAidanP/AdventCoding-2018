@@ -1,4 +1,4 @@
-import numpy, math
+import numpy
 #An instance that can be called to ask for and solve a simultaneous equation
 class SimultaneousEquation:
     #------Initialiser------
