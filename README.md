@@ -91,3 +91,7 @@ Day 22 - 'SimultaneousEquation.py':<br>
     -Solves a system of equations using matricies<br>
     -Gets an input from the user of the number of unknowns, coefficients and equal to for each equation<br>
     -Returns the solutions for each unknown<br>
+Day 23 - 'PoissonDistribution.py':<br>
+    -An object that deinfes a poisson distribution<br>
+    -Can be created for statistical distribution when a lambda is given<br>
+    -Can get probability, cumulative probability, mean, variance, s.d and allows addition of distributions<br>
