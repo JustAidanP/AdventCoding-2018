@@ -95,3 +95,14 @@ Day 23 - 'PoissonDistribution.py':<br>
     -An object that deinfes a poisson distribution<br>
     -Can be created for statistical distribution when a lambda is given<br>
     -Can get probability, cumulative probability, mean, variance, s.d and allows addition of distributions<br>
+Final Day 24 - 'Renderer.py':<br>
+    -Updated Vector from Day 1 to include 3d vectors with included support for dot product and cross product<br>
+    -Updated Object from Day 3 to have a Node class that defines a node in a renderer<br>
+    -Renderer is a 3D perspective renderer that can project 3D points into 2D space<br>
+    -Currently has limited functionality and lacks culling however support will be introduced over the months<br>
+    -Includes a basic way to show nodes in 3D space, nodes are attached to a scene which then renders these every frame<br>
+    -Includes GameManager, Renderer, Scene, Polygon, Mesh and Node<br>
+Advent Coding has been a fun challenge over the last 24 days, creating a new piece of code in python every day.<br>
+I will continue to post projects that I am creating or have created over time, taking further code from AdventCoding       where I can.<br>
+The 3D renderer from Day 24 is a project that I have no intent to become commercial but is a project I want to continue nonetheless.<br>
+I'm looking forward to coding in 2019 and I may make it a new years resolution to port these projects into my favourite language, Swift.
