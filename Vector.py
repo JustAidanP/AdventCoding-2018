@@ -38,6 +38,9 @@ class Vector:
     #Returns the magnitude of the vector squared
     def magnitudeSquared(self):
         return self.x**2 + self.y**2
+    #Returns the dot product of two vectors
+    def dotProduct(self, other):
+        return self.x*other.x + self.y*other.y
     #Dupliactes the vector
     def copy(self):
         return Vector(self.x, self.y)
